@@ -48,5 +48,5 @@ We apply SQL logic to:
 ##  Author
 **Wil Njeru**  
 Cybersecurity | Data Analytic | professional  
-[GitHub Profile]
+GitHub Profile - https://github.com/Wil421-hu
 
