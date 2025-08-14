@@ -1,52 +1,59 @@
-# suspicious-login-analysis
-SQL + Tableau demo for detecting suspicious login attempts via location mismatch
+# Suspicious Login Attempts — Cybersecurity Analysis Demo
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![SQL](https://img.shields.io/badge/Query-SQL-blue)
-![RMarkdown](https://img.shields.io/badge/Built%20With-RMarkdown-brightgreen)
-![Tableau](https://img.shields.io/badge/Visualization-Tableau-orange)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Wil421-hu/suspicious-login-analysis)](https://github.com/Wil421-hu/suspicious-login-analysis)
+[![RMarkdown](https://img.shields.io/badge/RMarkdown-Analysis-blue)](suspicious_login_analysis.Rmd)
+[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)](https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Dashboard1)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-#  Suspicious Login Attempts — Cybersecurity Analysis Demo
+## Project Overview
+This project demonstrates **cybersecurity incident analysis** using **SQL**, **RMarkdown**, and **Tableau** to investigate suspicious login attempts from an attack actor.  
+The workflow focuses on **geolocation mismatch detection** — identifying login events where the country of access does not match the employee's office location.
 
-![Banner](github_banner.png)
+## Objectives
+- Detect **suspicious login attempts** based on location mismatch.
+- Count **failed logins** by country to spot unusual access patterns.
+- Visualize login trends with **Tableau dashboards**.
+- Demonstrate integration of SQL queries with RMarkdown for reporting.
 
-##  Project Overview
-This project simulates the detection of suspicious login activity across a global workforce. Using an AI-generated dataset of employee office locations and login attempts, we perform analytical queries to flag potential unauthorized access based on mismatches in login location.
+## Project Structure
+- Project_cybersecurity_Demo.Rmd # Main RMarkdown analysis file
+- output_report.pdf # Final PDF report (generated from RMarkdown)
+- /images # Supporting visuals and screenshots
+- README.md # Project documentation
 
-We apply SQL logic to:
-- Join login attempts with employee office records
-- Flag logins where the login country does not match expected office
-- Filter failed login attempts with mismatches
-- Aggregate and visualize anomalies
+## Tools & Technologies
+- **SQL** — Data querying and conditional logic for location mismatch detection.
+- **RMarkdown** — Reproducible analysis & PDF/HTML reporting.
+- **Tableau** — Interactive visualizations & dashboards.
+- **GitHub** — Version control and project sharing.
 
-##  Tools & Technologies
-- **R Markdown** — For clean report generation
-- **SQL** — Core logic for location mismatch detection
-- **Tableau** — Geographic and aggregated visualizations
-- **HTML/PDF Output** — For sharing and publishing
+## Key Insights
+- Login attempts from **unexpected countries** were flagged for review.
+- Certain regions showed **multiple failed logins**, suggesting targeted access attempts.
+- Visual trends helped pinpoint **time-based spikes** in suspicious activity.
 
-##  Project Files
+## Sample Output
+![Suspicious Login Dashboard](map_country_office.png)
 
-| File | Description |
-|------|-------------|
-| `suspicious_login_analysis.Rmd` | Main analysis script with SQL queries and visuals |
-| `suspicious_login_analysis.pdf` | PDF report output |
-| `suspicious_by_country.png` | Bar chart of suspicious login counts |
-| `failed_login_mismatch.png` | Screenshot of filtered login anomalies |
-| `map_country_office.png` | Tableau-generated map of login vs office |
+## How to Reproduce
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Wil421-hu/suspicious-login-analysis.git
+2. Open Project_cybersecurity_Demo.Rmd in RStudio.
+3. Knit the document to PDF or HTML.
+4. Explore the Tableau dashboard for interactive filtering.
 
-##  Results
-- Multiple login attempts originated from unexpected countries.
-- Several failed login attempts were flagged as suspicious.
-- Visualizations show clear geographic outliers that may indicate malicious activity.
+## Interactive Dashboard
+View the live Tableau visualization here:
+👉  https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Dashboard1
 
-##  Notes
-- **All data is simulated.**
-- No real employees or IP addresses are used.
-- Intended for demonstration and portfolio purposes.
+##  Topics / Tags
+cybersecurity sql rmarkdown tableau data-analysis security-analytics
 
-##  Author
-**Wil Njeru**  
-Cybersecurity | Data Analytic | professional  
-GitHub Profile - https://github.com/Wil421-hu
+##  License
+This project is licensed under the MIT License — see the file for details.
+👉  ![LICENSE](LICENSE)
 
+Author: Wil Njeru
+
+Cybersecurity & Data Analytics Professional.
