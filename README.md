@@ -1,8 +1,8 @@
 # Suspicious Login Attempts — Cybersecurity Analysis Demo
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/Wil421-hu/suspicious-login-analysis)](https://github.com/Wil421-hu/suspicious-login-analysis)
-[![RMarkdown](https://img.shields.io/badge/RMarkdown-Analysis-blue)](suspicious_login_analysis.Rmd)
-[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)](https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Dashboard1)
+[![RMarkdown](https://img.shields.io/badge/RMarkdown-Analysis-blue)](Project_cybersecurity_Demo.Rmd)
+[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)](https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Project_Dashboard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## Project Overview
@@ -33,7 +33,7 @@ The workflow focuses on **geolocation mismatch detection** — identifying login
 - Visual trends helped pinpoint **time-based spikes** in suspicious activity.
 
 ## Sample Output
-![Suspicious Login Dashboard](map_country_office.png)
+![Suspicious Login Dashboard](dashboard_image.png)
 
 ## How to Reproduce
 1. Clone the repository:
@@ -45,14 +45,15 @@ The workflow focuses on **geolocation mismatch detection** — identifying login
 
 ## Interactive Dashboard
 View the live Tableau visualization here:
-👉  https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Dashboard1
+
+![Suspicious Login Attempts](https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Project_Dashboard)
 
 ##  Topics / Tags
 cybersecurity sql rmarkdown tableau data-analysis security-analytics
 
 ##  License
-This project is licensed under the MIT License — see the file for details.
-👉  ![LICENSE](LICENSE)
+This project is licensed under the MIT License — see the ![LICENSE](LICENSE) file for details.
+
 
 Author: Wil Njeru
 
