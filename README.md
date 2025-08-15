@@ -46,13 +46,13 @@ The workflow focuses on **geolocation mismatch detection** — identifying login
 ## Interactive Dashboard
 View the live Tableau visualization here:
 
-![Suspicious Login Attempts](https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Project_Dashboard)
+👉 [Suspicious Login Attempts](https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Project_Dashboard)
 
 ##  Topics / Tags
 cybersecurity sql rmarkdown tableau data-analysis security-analytics
 
 ##  License
-This project is licensed under the MIT License — see the ![LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 
 Author: Wil Njeru
