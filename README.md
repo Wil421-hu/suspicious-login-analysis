@@ -33,7 +33,7 @@ The workflow focuses on **geolocation mismatch detection** — identifying login
 - Visual trends helped pinpoint **time-based spikes** in suspicious activity.
 
 ## Sample Output
-![Suspicious Login Dashboard](dashboard_image.png)
+![View Dashboard](dashboard_image.png)
 
 ## How to Reproduce
 1. Clone the repository:
@@ -57,4 +57,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 Author: Wil Njeru
 
-Cybersecurity & Data Analytics Professional.
+___Cybersecurity & Data Analytics Professional.___
