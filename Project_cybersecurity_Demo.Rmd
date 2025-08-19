@@ -82,10 +82,16 @@ GROUP BY login_country;
 
 -   Below is a Tableau-generated map showing where login attempts originate from, overlaid with expected office locations
 
-![geomap](map_country_office.png)
+![geomap](dashboard_image.png)
 .
 
 ## Conclusion
+
+Project Links
+
+GitHub Repository: https://github.com/Wil421-hu/suspicious-login-analysis
+
+Tableau Dashboard: https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Dashboard1
 
 This demo successfully highlights
 
