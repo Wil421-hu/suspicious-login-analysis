@@ -1,4 +1,4 @@
-![Title](Blue_image)
+![Title](Blue_image.png)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/Wil421-hu/suspicious-login-analysis)](https://github.com/Wil421-hu/suspicious-login-analysis) [![RMarkdown](https://img.shields.io/badge/RMarkdown-Analysis-blue)](Project_cybersecurity_Demo.Rmd) [![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)](https://public.tableau.com/app/profile/wil.jero/viz/SuspiciousLoginAttempts/Project_Dashboard) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
