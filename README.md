@@ -45,6 +45,11 @@ The workflow focuses on **geolocation mismatch detection** — identifying login
 3.  Knit the document to PDF or HTML.
 4.  Explore the Tableau dashboard for interactive filtering.
 
+## Reports
+1.  [Analysis report - PDF formart](Project_Report.pdf)
+2.  [Analysis report - HTML formart](https://Wil421-hu.github.io/suspicious-login-analysis/Project_Report.html)
+
+
 ## Interactive Dashboard
 
 View the live Tableau visualization here:
