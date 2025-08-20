@@ -46,9 +46,9 @@ The workflow focuses on **geolocation mismatch detection** — identifying login
 4.  Explore the Tableau dashboard for interactive filtering.
 
 ## Reports
-1.  [Analysis report - PDF formart](Project_Report.pdf)
-2.  [Analysis report - HTML formart](https://Wil421-hu.github.io/suspicious-login-analysis/Project_Report.html)
 
+1.  [Cybersecurity Analysis Report - PDF format](Project_Report.pdf)
+2.  [Cybersecurity Analysis Report - HTML format](https://Wil421-hu.github.io/suspicious-login-analysis/Project_Report.html)
 
 ## Interactive Dashboard
 
